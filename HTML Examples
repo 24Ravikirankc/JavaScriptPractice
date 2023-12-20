@@ -1,0 +1,323 @@
+1.	Draw a Circle with radius of 40 with blue colour, black colour stroke using SVG (Width =100 and height =100) x,y 50,50
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+<body>
+<svg width="100" height="100">
+<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" /></svg>
+</body>
+</html>
+2.	Include a image with id 'myImage' where the source is 'https://www.guvi.in/images/guvi-logo.png'
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+<body>
+<img src="https://www.guvi.in/images/guvi-logo.png" id="myImage">
+</body>
+</html>
+3.	Create a HTML form, With "Firstname", "Password" as id for input fields, with a "submit" button and a Heading tag "Guvi Form", Password field should get only 4 characters as input
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+<body>
+<h2>Guvi Form</h2>
+
+<form>
+  <label for="Firstname">FirstName</label>
+  <input type="text" id="Firstname" name="fname"><br><br>
+  <label for="Password">Password</label>
+  <input type="password" id="Password" name="password" maxlength="4">
+  <input type="button" onclick="formSubmit()" value="submit">
+</form>
+</body>
+</html>
+4.	Create a input field with a label "Enter the name"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+  <form>
+   <input type="text">
+   <label>Enter the name</label>
+  </form>
+    </body>
+</html>
+5.	Given a array, sort the array in Ascending order and print, using Javascript array=[40, 100, 1, 5, 25, 10]; Example(array=[5,4,3,2,1] sorted array 1,2,3,4,5 in p tag)
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <style>var points = [40, 100, 1, 5, 25, 10];
+points.sort((function(a, b){return a - b}));
+document.getElementById("demo").innerHTML = points;</style>
+  </head>
+<p id="demo"></p>
+ </html>
+6.	Display "Hello From Guvian" using paragraph tag and by using :after pseudo element add ! after the text
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <style>
+
+p::after {
+content: "!";
+
+}
+
+</style>
+  </head>
+  <body>
+<p>Hello From Guvian</p>
+  </body>
+</html>
+7.	Display addition of 5 and 6 with a paragraph element with id name as "addition" using JavaScript
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+   <style>var number  = document.getElementById("addition");
+number.innerHTML = 5+6;</style>
+  </head>
+  <body>
+<p id="addition"></p>
+  </body>
+</html>
+8.	Create an iframe of width 300 and height 200 using iframe tag in html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    </head>
+  <body>
+  <iframe width="300" height="200">
+
+</iframe>
+  </body>
+</html>
+9.	Form radio buttons with values Male, Female, Other
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+  <form>
+  </form>
+    <input type="radio">
+<lable>male</lable><br>
+<input type="radio">
+<lable>Female</lable><br>
+<input type="radio">
+<lable>Other</lable>
+  </body>
+</html>
+10.	Form a checkbox with options as I am an extrovert, I am an introvert, I am polite
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+   <form>
+   <input type="checkbox"><lable>I am an extrovert</lable><br>
+<input type="checkbox"><lable>I am an introvert</lable><br>
+<input type="checkbox"><lable>I am polite</lable>
+   </form>
+  </body>
+</html>
+11.	Align the given text "Code well" to center and give a green border to it.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    p.one{
+border-color:green;
+border-style:solid;
+text-align:center;
+}
+  </head>
+  <body>
+  <p class="one">Code well</p>
+  </body>
+</html>
+12.	Create a ordered list with a id "orderedList" and the elements (HTML, CSS, Javascript) in HTML.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+ <body>
+
+<h2>Ordered List</h2>
+
+
+<ol id="orderedList">
+
+Syntax for creating ordered list
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+<li>Javascript</li>
+
+</ol>
+ 
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+ <body>
+<h2>Unordered List</h2>
+<ul id='unorderList'>
+ <li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+</ul>  
+</body>
+</html>
+13.	Display "Hello from guvian" using padding on all four sides, 10px, with light blue background in a paragraph tag.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <style>
+p{
+padding:10px;
+background:lightblue;
+}
+</style>
+  </head>
+  <body>
+<p>Hello from guvian</p>
+  </body>
+</html>
+14.	Display an statement "Hello From Guvian!" in a h1 tag and underline it using CSS
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+ <style>h1{
+text-decoration:underline;
+}</style>
+ </head>
+  <body>
+<body>
+<h1>Hello From Guvian!</h1>
+</body>
+</html>
+15.	Display "Hello from Guvian" in a margin of 20px with pink background in a paragraph tag
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+ <style>
+
+p {
+background-color:pink;
+
+margin:20px;
+
+}
+
+</style>
+</head>
+<body>
+<p>Hello from Guvian</p>
+</body>
+</html>
+16.	Display an unordered list with text ONE, TWO and THREE with list-style-type as "square" using inline CSS
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+<ul style="list-style-type:square(Circle);">
+  <li>ONE</li>
+  <li>TWO</li>
+  <li>THREE</li>
+</ul>
+  </body>
+</html>
+17.	Display an ordered list with text ONE, TWO, and THREE as list elements and ordered with roman characters like i, ii, iii, iv, ....
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body>
+<ol type= "i">
+  <li>ONE</li>
+  <li>TWO</li>
+  <li>THREE</li>
+</ol>
+
+  </body>
+</html>
