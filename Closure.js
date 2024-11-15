@@ -15,7 +15,7 @@ function outer(){
      counter++
      console.log(counter)
 }
-return inner //* in javascript is possible to function into other function
+return inner //* in javascript It is possible to function into other function
 }
 const fn = outer()
 fn()  // output is 1
